@@ -13,7 +13,7 @@ see https://github.com/kilgore5/docker-model-runner-api-proxy/issues/1 for more
 
 # Docker Model Runner API Proxy for OpenWebUI
 
-This is a reverse proxy for the Docker Model Runner API so that OpenWebUI can access models installed via Docker Model Runner.
+This is a reverse proxy for the [Docker Model Runner](https://docs.docker.com/desktop/features/model-runner/) API so that [OpenWebUI](https://openwebui.com/) can access models installed via Docker Model Runner.
 
 The primary purpose was to add CORS support, but it also fixes a few other inconsistencies that may or may not be needed with further testing and/or configuration.
 
@@ -69,3 +69,9 @@ $ curl -s http://localhost:8081/v1/models
 add `http://localhost:8081/v1` to the OpenWebUI Settings -> Connections -> Manage Direct Connections
 
 #### See the models in OpenWebUI UI
+<img width="250" alt="Screenshot 2025-04-25 at 4 44 31 PM" src="https://github.com/user-attachments/assets/5e05146d-e4c8-42f7-978e-aeda32dd2ade" />
+
+#### Chat
+<img width="250" alt="Screenshot 2025-04-25 at 4 46 03 PM" src="https://github.com/user-attachments/assets/dc086303-49d0-4707-98f0-db0f837ea213" />
+
+
