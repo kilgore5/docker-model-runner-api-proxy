@@ -1,3 +1,16 @@
+# IMPORTANT NOTE
+
+Instead of this approach, a simpler alternate approach may be setting `OPENAI_API_BASE_URLS` if running
+OpenWebUI via Docker
+
+```
+# docker-compose.yml
+environment:
+      - OPENAI_API_BASE_URLS=https://api.openai.com/v1;http://model-runner.docker.internal/engines/v1
+```
+
+see https://github.com/kilgore5/docker-model-runner-api-proxy/issues/1 for more
+
 # Docker Model Runner API Proxy for OpenWebUI
 
 This is a reverse proxy for the Docker Model Runner API so that OpenWebUI can access models installed via Docker Model Runner.
